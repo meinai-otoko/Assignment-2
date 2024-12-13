@@ -114,6 +114,27 @@ kubectl apply -f aps-all-in-one.yaml
 | Bestbuy-store-front        | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/store-front/general)        |
 | Bestbuy-virtual-customer   | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/virtual-customer/general)   |
 | Bestbuy-virtual-worker     | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/virtual-worker/general)  
+- **Issues and limitations**
+# Why Azure Service Bus Didn't Work (Attempts and Troubleshooting)
+
+## Reasons
+- **Complex Configuration**:
+  - Setting up Azure Service Bus to match RabbitMQ's functionality was challenging due to differences in configuration.
+
+  - Some microservices had issues processing messages due to differences in how Azure Service Bus and RabbitMQ handle acknowledgments and retries.
+
+  - Integrating Azure Service Bus with existing microservices required changes to the application code, which introduced new issues.
+
+## Troubleshooting Steps (Unsuccessful)
+
+   - Modified Azure Service Bus settings, such as message TTL and retry policies, to match RabbitMQ's setup, but the issue persisted.
+
+   - Updated the microservices to handle Azure Service Bus messages, but errors still occurred with message processing.
+
+   - Verified connectivity between the application and Azure Service Bus to rule out network issues. Everything appeared fine, but messages were still not being processed as expected.
+
+
+Despite these efforts, the migration to Azure Service Bus was unsuccessful, leading to the decision to revert to RabbitMQ, which worked seamlessly with the existing architecture.
 
 ### **2. Demo Video**  
 
