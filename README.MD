@@ -137,7 +137,7 @@ kubectl apply -f aps-all-in-one.yaml
 Despite these efforts, the migration to Azure Service Bus was unsuccessful, leading to the decision to revert to RabbitMQ, which worked seamlessly with the existing architecture.
 
 ### **2. Demo Video**  
-
+[Youtube Video Link](https://www.youtube.com/watch?v=BqKcAPNcuoc) 
 
 
 
