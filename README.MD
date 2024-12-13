@@ -72,7 +72,8 @@ To configure the `aps-all-in-one.yaml` file, replace the placeholders with the r
 - **`AZURE_OPENAI_DALLE_ENDPOINT`**: Enter the endpoint URL for the DALL-E 3 deployment.
 - **`AZURE_OPENAI_DALLE_DEPLOYMENT_NAME`**: Enter the deployment name for DALL-E 3.
 7. Update the correct image link of your Docker Hub images in aps-all-in-one.yaml file.
- 8.  Deploy the ConfigMaps and Secrets
+8. Before executing the following commands you need to create a connection with your cluster.
+ 9.  Deploy the ConfigMaps and Secrets
 - **Deploy the ConfigMap for RabbitMQ Plugins:**
     ```bash
     kubectl apply -f config-maps.yaml
