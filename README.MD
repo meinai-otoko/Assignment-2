@@ -114,7 +114,7 @@ kubectl apply -f aps-all-in-one.yaml
 | Bestbuy-store-front        | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/store-front/general)        |
 | Bestbuy-virtual-customer   | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/virtual-customer/general)   |
 | Bestbuy-virtual-worker     | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/virtual-worker/general)  
-- **Issues and limitations**
+
 # Why Azure Service Bus Didn't Work (Attempts and Troubleshooting)
 
 ## Reasons
