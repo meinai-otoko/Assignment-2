@@ -106,14 +106,14 @@ kubectl apply -f aps-all-in-one.yaml
 ## Table of Docker Images
 | Service                    | Docker Image Link                                                                                 |
 |----------------------------|-------------------------------------------------------------------------------------------------|
-| Bestbuy-order-service      | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/order-service/general)      |
-| Bestbuy-product-service    | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/product-service/general)    |
-| Bestbuy-ai-service         | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/ai-service/general)         |
-| Bestbuy-makeline-service   | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/makeline-service/general)   |
-| Bestbuy-store-admin        | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/store-admin/general)        |
-| Bestbuy-store-front        | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/store-front/general)        |
-| Bestbuy-virtual-customer   | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/virtual-customer/general)   |
-| Bestbuy-virtual-worker     | [GitHub Link](https://hub.docker.com/repository/docker/pascalkc9999/virtual-worker/general)  
+| Bestbuy-order-service      | [Docker Link](https://hub.docker.com/repository/docker/pascalkc9999/order-service/general)      |
+| Bestbuy-product-service    | [Docker Link](https://hub.docker.com/repository/docker/pascalkc9999/product-service/general)    |
+| Bestbuy-ai-service         | [Docker Link](https://hub.docker.com/repository/docker/pascalkc9999/ai-service/general)         |
+| Bestbuy-makeline-service   | [Docker Link](https://hub.docker.com/repository/docker/pascalkc9999/makeline-service/general)   |
+| Bestbuy-store-admin        | [Docker Link](https://hub.docker.com/repository/docker/pascalkc9999/store-admin/general)        |
+| Bestbuy-store-front        | [Docker Link](https://hub.docker.com/repository/docker/pascalkc9999/store-front/general)        |
+| Bestbuy-virtual-customer   | [Docker Link](https://hub.docker.com/repository/docker/pascalkc9999/virtual-customer/general)   |
+| Bestbuy-virtual-worker     | [Docker Link](https://hub.docker.com/repository/docker/pascalkc9999/virtual-worker/general)  
 
 # Why Azure Service Bus Didn't Work (Attempts and Troubleshooting)
 
