@@ -1,5 +1,5 @@
 # Full-Stack Cloud-Native Development  
-## **Bestbuy APP on crack** 
+## **Bestbuy APP on super steroids** 
 ## **Updated Application Architecture**  
 
 ```mermaid
