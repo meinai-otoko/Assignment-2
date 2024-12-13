@@ -42,8 +42,8 @@ The application is a microservices-based architecture designed to handle differe
 ## Architecture Explanation
 
 1. **User Interactions**:
-   - **Customers** interact with the `store-front` application (built with Vue.js) to browse and purchase products.
-   - **Employees** use the `store-admin` application (also built with Vue.js) to manage orders, products, and the backend services.
+   - **Customers** interact with the `Bestbuy-store-front` application (built with Vue.js) to browse and purchase products.
+   - **Employees** use the `Best-buy-store-admin` application (also built with Vue.js) to manage orders, products, and the backend services.
 
 2. **Backend Services**:
    - **BestBuy-order-service (Node.js)**: Handles customer orders, communicates with RabbitMQ (`BestBuy-order-queue`), and ensures reliable order processing.
